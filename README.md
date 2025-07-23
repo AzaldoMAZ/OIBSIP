@@ -1,25 +1,25 @@
-# Task 1: Basic Network Scanning with Nmap
+Task 1: Basic Network Scanning with Nmap
 
-## Overview
+ Overview
 
 This task demonstrates the use of Nmap, a powerful network scanning tool, to identify open ports and running services on a local machine. The objective is to gain practical experience in network reconnaissance, a foundational skill in cybersecurity and system administration.
 
----
 
-## Scan Procedure
 
-**Tool Used:**  
+ Scan Procedure
+
+Tool Used: 
 Nmap version 7.97 (Windows build)
 
-**Scan Command Executed:**
+Scan Command Executed:
 ```sh
 nmap localhost > nmap_scan_results.txt
 ```
 This command initiates a TCP scan against the local machine (`localhost`), redirecting the output to a text file for documentation and analysis.
 
----
 
-## Results
+
+ Results
 
 The scan identified the following open ports and associated services:
 
@@ -29,9 +29,9 @@ The scan identified the following open ports and associated services:
 | 445/tcp  | open  | microsoft-ds  | Microsoft Directory Services, used for SMB file sharing. |
 | 3306/tcp | open  | mysql         | MySQL database server, handles database connections.     |
 
----
 
-## Analysis & Significance
+
+Analysis & Significance
 
 - **135/tcp (msrpc):**  
   This port is used by Microsoft’s Remote Procedure Call service, which enables communication between Windows applications across a network. While necessary for certain Windows functions, it is a common target for exploits and should be firewalled from untrusted networks.
@@ -44,7 +44,7 @@ The scan identified the following open ports and associated services:
 
 
 
-## Security Recommendations
+Security Recommendations
 
 - Restrict access to these ports using a firewall, allowing only trusted IP addresses.
 - Regularly update and patch services to mitigate known vulnerabilities.
@@ -53,7 +53,7 @@ The scan identified the following open ports and associated services:
 
 
 
-## Screenshots
+Screenshots
 
 Below is a screenshot of the Nmap scan output as seen in the terminal
 
