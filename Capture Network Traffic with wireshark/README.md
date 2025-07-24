@@ -1,6 +1,4 @@
-Certainly! Here’s a more professional version of your Wireshark capture README:
 
----
 
 # Wireshark Network Traffic Capture Report
 
