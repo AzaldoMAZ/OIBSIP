@@ -1,1 +1,92 @@
+🛡️ Incident Response Fundamentals
 
+Platform: TryHackMe
+
+Difficulty: Beginner → Intermediate
+Time: ~60 mins
+Focus Area: Cybersecurity | Incident Response | EDR Analysis
+
+🧩 Overview
+
+This project documents my practical work from the TryHackMe - Incident Response Fundamentals room.
+The lab introduces essential concepts and real-world practices of Incident Response (IR) — identifying, analyzing, containing, eradicating, and recovering from cybersecurity incidents.
+
+📚 Learning Objectives
+
+Understand what constitutes a security incident
+
+Differentiate between types of incidents (malware, phishing, insider threats, etc.)
+
+Learn the Incident Response Process (Preparation → Identification → Containment → Eradication → Recovery → Lessons Learned)
+
+Apply Incident Response techniques in a simulated environment
+
+Use an Endpoint Detection & Response (EDR) tool to investigate and respond to malware infections
+
+⚙️ Lab Scenario
+
+Scenario Summary:
+A phishing email containing a malicious attachment was downloaded by multiple employees. The goal is to investigate the spread of the malware across hosts and take appropriate actions.
+
+Tasks Performed:
+
+Identify affected hosts
+
+Checked which devices executed or downloaded the malicious file.
+
+Analyze EDR Dashboard Data
+
+Verified host states (Executed / Not Executed).
+
+Located impacted endpoints (Host-ATYU, Host-IOPE, Host-HKNV).
+
+Take Response Actions
+
+Quarantine files on hosts where malware was not executed (Host-ATYU, Host-IOPE).
+
+Investigate executed hosts (Host-HKNV) to trace infection timeline.
+
+Document Findings & Timeline
+
+Recorded infection spread and actions taken for each host.
+
+🧠 Key Takeaways
+
+Importance of rapid response to phishing-based intrusions.
+
+How EDR tools assist in detecting and isolating infected systems.
+
+Hands-on understanding of containment and remediation strategies.
+
+Reinforcement of incident documentation and evidence preservation.
+
+🖼️ Evidence
+
+
+The EDR environment displaying host infection states and response actions.
+
+🧰 Tools & Technologies
+
+TryHackMe Virtual Environment
+
+EDR Simulation Interface
+
+Phishing Email Scenario
+
+Incident Response Methodologies
+
+✅ Status
+Task	Description	Status
+1	Introduction to Incident Response	✅
+2	What are Incidents?	✅
+3	Types of Incidents	✅
+4	Incident Response Process	✅
+5	Incident Response Techniques	✅
+6	Lab Work: Incident Response	🔄 In Progress
+📎 References
+
+TryHackMe: Incident Response Fundamentals
+
+NIST SP 800-61 Rev. 2 – Computer Security Incident Handling Guide
+
+SANS Institute – Incident Handler’s Handbook
