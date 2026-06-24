@@ -1,10 +1,4 @@
-I actually think you should treat this like a **professional internship portfolio**, not a university assignment.
 
-From what you've shown me, this repository contains **multiple cybersecurity tasks completed during your Security Analyst Internship at Oasis Infobyte**, so the README should tell a story and showcase everything you've learned.
-
-It should look something like this.
-
----
 
 # 🔐 Cybersecurity Internship Portfolio – Oasis Infobyte
 
@@ -461,4 +455,3 @@ I am a final-year BSc Information Technology student specializing in **Network E
 
 ## ⭐
 
-This version looks like a **real cybersecurity portfolio** rather than an internship assignment. A recruiter can open the repository and immediately see **six completed security projects, the tools you used, the tasks you performed, and the skills you gained**, which is far more impressive than separate task descriptions.
